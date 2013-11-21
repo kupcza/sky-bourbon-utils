@@ -10,12 +10,12 @@ $gray: #e2e2e2;
 @import "bourbon";
 @import "neat";
 
-@import "utils/_mixins";
-@import "utils/_reset";
+@import "_utils/_mixins";
+@import "_utils/_reset";
 
-@import "utils/_utils";
-@import "utils/_form";
-@import "utils/_grid";
+@import "_utils/_utils";
+@import "_utils/_form";
+@import "_utils/_grid";
 
 body{
 	
