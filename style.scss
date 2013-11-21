@@ -1,0 +1,22 @@
+$max-width: 940px;
+
+
+$white: #fff;
+$green: #00a651;
+$red: #a60000;
+$border_gray: #ababab;
+$gray: #e2e2e2;
+
+@import "bourbon";
+@import "neat";
+
+@import "utils/_mixins";
+@import "utils/_reset";
+
+@import "utils/_utils";
+@import "utils/_form";
+@import "utils/_grid";
+
+body{
+	
+}

@@ -1,0 +1,52 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.control-group{
+	@include clearfix;
+
+	margin-bottom: 10px;
+}
+
+label.control-label{
+	float: left;
+	display: block;
+
+	width: 130px;
+}
+
+.controls{
+	float: left;
+}
+
+#{$all-text-inputs}, textarea {
+	border: 1px solid #000;
+	font-size: 14px;
+	font-family: inherit;
+
+	padding: 1px 3px;
+	font-size: 12px;
+}
+
+input[type=submit]{
+	border: 0;
+
+	font-size: 14px;
+	padding: 0 10px;
+	height: 27px;
+	line-height: 27px;
+
+	background: $green;
+	color: #fff;
+}
+
+/*#{$all-text-inputs-hover} { // Target the :hover pseudo-class
+  background: yellow;
+}
+
+#{$all-text-inputs-focus} { // Target the :focus pseudo-class
+  background: white;
+}*/
